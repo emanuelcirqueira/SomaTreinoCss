@@ -1,0 +1,84 @@
+
+* {
+    margin: 0%;
+}
+
+header {
+    height: 10vh;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    color:white;
+    font-size: 8vh;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+header div {
+    margin: 2vw;
+    padding: 1vw;
+}
+
+header div:hover {
+    background-color: rgb(120, 21, 21);
+    cursor: pointer;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#form {
+    margin-top: 5vh;
+    width: 40vw;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3rem;
+}
+
+#form input {
+    width: 20vw;
+    height: 5vw;
+    font-size: 10vh;
+    text-align: center;
+    border-radius: 3rem;
+    margin: 1vh;
+}
+#form button {
+    width: 20.5vw;
+    height: 5vw;
+    font-size: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3rem;
+    margin: 1vh;
+}
+#form button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: 0px
+}
+#resultado {
+    width: 40vw;
+    height: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vh;
+}
+#resultado input {
+    width: 20vw;
+    height: 5vw;
+    font-size: 10vh;
+    text-align: center;
+    
+}
